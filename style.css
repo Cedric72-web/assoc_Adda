@@ -17,12 +17,6 @@
   --third-font: 'Anaheim', sans-serif;
 }
 
-/* --------------------------------- Import fonts -------------------------------------- */
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,200&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
-
 /* ----------------------------------- COMMON PROPERTIES ------------------------------ */
 
 .coloredText {
@@ -31,8 +25,6 @@
 
 .font1 {
   font-family: var(--primary-font)!important;
-  font-weight: bold;
-  color: var(--secondary-color)!important;
 }
 
 .font2 {
@@ -42,3 +34,70 @@
 .font3 {
   font-family: var(--third-font)!important;
 }
+
+/* -------------------------------- Section Home --------------------------------------- */
+
+#firstRowHomePage {
+  min-height: 100vh;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--primary-color);
+}
+
+#text-presentation{
+  background-color: var(--bg-color);
+}
+
+.text-welcome{
+  font-family: 'Anaheim', sans-serif;
+opacity: 1;
+font-size: 25px;
+}
+
+.big-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.big-text .firstLetter{
+  font-size: 55px;
+  color: var(--secondary-color);
+}
+
+.description {
+  max-width: 550px;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+.btn{
+  margin-top: 30px;
+  padding: 15px 32px;
+  font-size: 14px;
+  transition: all 0.5s;
+  letter-spacing: 0.6px;
+  color: var(--primary-color);
+  box-shadow: none !important;
+  text-transform: uppercase;
+  outline: none !important;
+  border-radius: 30px;
+  border: 2px solid var(--primary-color);
+}
+
+.btn-outline-info:hover{
+  background-color: var(--secondary-color)!important;
+  border: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+
+#mouseBtn i{
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
