@@ -100,3 +100,30 @@ font-size: 25px;
   cursor: pointer;
 }
 
+/*  Section About */
+
+.about{
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
+.img-thumbnail{
+  width: 80%;
+  height: auto;
+  border: 2px solid var(--secondary-color);
+  padding: 0.5 rem;
+  border-radius: 0.5rem;
+}
+
+.quote {
+  color: var(--secondary-color);
+}
+
+  /*------------------------------------ RESPONSIVE -------------------------------------*/
+  
+  @media screen and (min-width: 900px) {
+    .sm-reverse {
+        flex-direction: row-reverse;
+    }
+}
