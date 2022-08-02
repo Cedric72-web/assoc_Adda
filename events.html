@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Balise de descritpion du site -->
+    <meta name="description" content="Bienvenue sur le site de l'Association Des Développeurs(euses) Anonymes. Cette association vient en aide aux personnes souffrant du codage compulsif.">
+
+    <!-- Start Imports -->
+  
+    <!-- Import des polices de caractère -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Police Anaheim -->
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+    <!-- Police Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet"> 
+    <!-- Police Lora -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet"> 
+  
+    <!-- Import CSS Bootstrap 5.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Import Bootsrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Import style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Import du favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+  
+    <!-- End Imports -->
+
+  <title>Document</title>
+</head>
+<body>
+  <!-- Start header -->
+  <header>
+    <!-- Start Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid text-align-center text-capitalize">
+        <a class="navbar-brand font2 coloredText" href="#">
+          <i class="bi bi-code coloredText"></i>
+          ADDA
+          <i class="bi bi-code-slash coloredText"></i>
+        </a>
+        <div class="text-center font2" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ">
+              <a class="nav-link active font2 coloredText" aria-current="page" href="./index.html"><i class="bi bi-arrow-left-square-fill"></i> Retour à l'accueil</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar-->
+  </header>
+  <!-- End header -->
+
+  <!-- Satrt Main -->
+    <div class="container events-page pb-5">
+      <h1 class="font1 coloredText">Les prochains évenements de l'ADDA</h1>
+      <div class="container-fluid events">
+        <div class="event1">
+          <div class="card mt-5 bg-dark text-light">
+            <img src="./images/event-img1.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h4 class="cartd-title">Boot Camp</h4>
+              <p class="card-text pt-2">Venez passez une semaine, avec des professionnels de l'addiction, pour apprendre à vous passer du développement.<br> Dans un cadre de rêve, vous apprendrez toutes les ficelles pour vous passer de votre ordinateur.</p>
+              <p class="card-date pt-2">Date de l'évenement:<br><span class="coloredText">du 13 au 20 août 2022</span></p>
+              <p class="card-place pt-2">Lieu de l'évenement:<br><span class="coloredText">à définir</span></p>
+              <a href="" class="btn btn-outline-info">Réserver</a>
+            </div>
+          </div>
+        </div>
+        <div class="event2">
+          <div class="card mt-5 bg-dark text-light">
+            <img src="./images/event-img2.jpg" alt="" class="card-img-top">
+            <div class="card-body mb-3">
+              <h4 class="cartd-title">Groupe de parole</h4>
+              <p class="card-text pt-2">Chaque semaine, un groupe de parole, composé de professionnels de l'addiction et d'anciens bénéficiares, se réuni afin d'écouter et soutenir chaque participant.</p>
+              <p class="card-date">Date de l'évenement:<br><span class="coloredText">Tous les vendredis de 10h à midi.</span></p>
+              <p class="card-place">Lieu de l'évenement:<br><span class="coloredText">Dans votre antenne locale de l'ADDA</span></p>
+              <a href="" class="btn btn-outline-info">Réserver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End Main -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="container d-flex justify-content-around">
+      <div class="social">
+          <p>Réseaux sociaux:</p>
+          <div class="icons d-flex justify-content-around align-items-center">
+            <a href="">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+      </div>
+      <div class="mail">
+        <p>Email:</p>
+        <div class="icons d-flex justify-content-around align-items-center">
+          <a href="#">
+            <i class="bi bi-envelope-paper"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="footer">&copy2022 | Association Des Développeurs Anonymes | Tous droits réservés</p>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Start Imports -->
+  <!-- Import Js Bootstrap 5.1 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- End Imports -->
+</body>
+</html>

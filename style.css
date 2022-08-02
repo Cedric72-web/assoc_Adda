@@ -154,7 +154,7 @@ font-size: 25px;
 
 footer
 {
-    height: 100px;
+    height: 120px;
     background-color: black;
     color: gray;
     width: 100vw;
@@ -176,6 +176,22 @@ footer .icons a
 footer p{
   font-size: 0.7em;
   padding-top: 10px;
+}
+
+/* ------------------------------------ EVENTS PAGE ------------------------------------ */
+
+.events-page
+{
+  margin-top: 45px;
+  padding-top: 30px;
+  text-align: center;
+  min-height: 89vh;
+  background-color: rgb(90, 81, 81);
+}
+
+.events-page h1
+{
+  text-transform: uppercase;
 }
 
   /*------------------------------------ RESPONSIVE -------------------------------------*/
