@@ -100,7 +100,7 @@ font-size: 25px;
   cursor: pointer;
 }
 
-/*  Section About */
+/* ------------------------------------ Section About ------------------------------------ */
 
 .about{
   min-height: 100vh;
@@ -119,6 +119,36 @@ font-size: 25px;
 .quote {
   color: var(--secondary-color);
 }
+
+/* ------------------------------------ Section Events ------------------------------------ */
+
+.carousel-indicators button{
+  background-color: var(--secondary-color)!important;
+}
+
+.carousel-inner {
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img{
+  width: 100vw;
+  border-radius: 30px;
+}
+
+.events-description {
+  text-align: center;
+}
+
+.events-description h3{
+  color: var(--secondary-color);
+}
+
+.events-list-item{
+  list-style: none;
+  font-size: 1.5em;
+}
+
 
   /*------------------------------------ RESPONSIVE -------------------------------------*/
   
